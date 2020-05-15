@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-  </body>
+<body>
+  <header class="main-header">
+    <nav>
+      <a class="main-header-logo">
+        <img src="img/" width="138" height="70" alt="Логотип сайта городка Седона">
+      </a>
+      <ul class="site-navigation">
+        <li class="site-navigation-item"><a href="info.html">Информация</a></li>
+        <li class="site-navigation-item"><a href="photos.html">Фото и видео</a></li>
+        <li class="site-navigation-item"><a href="map.html">Карта штата</a></li>
+        <li class="site-navigation-item"><a href="hotels.html">Гостиницы</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="visually-hidden">Сайт городка Седона</h1>
+    <section class="about-sedona">
+      <img src="img/" width="1200" height="509" alt="Горы Седоны">
+      <h2>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
+      <p>
+        Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
+      </p>
+    </section>
+
+    <section class="reasons-sedona">
+      <--! Красная секция Возможно это можно сделать упорядоченым списком-->
+    </section>
+
+    <section class="search-hotels">
+      <p>
+        <span>Заинтересовались?</span><br> Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне
+      </p>
+      <h2>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
+      <P>
+        <label>Дата заезда:</label>
+        <input type="text" value="24 апреля 2017">
+      </P>
+      <P>
+        <label>Дата выезда:</label>
+        <input type="text" value="04 июля 2017">
+      </P>
+      <P>
+        <label>Взрослые:</label>
+        <button type="button">-</button>
+        <input type="number" value="2">
+        <button type="button">+</button>
+      </P>
+      <P>
+        <label>Дети:</label>
+        <button type="button">-</button>
+        <input type="number" value="0">
+        <button type="button">+</button>
+      </P>
+      <P>
+        <a href="#">Найти</a>
+      </P>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <img src="img/" width="1199px" height="594px" alt="Карта">
+    <section>
+      <p>
+        #VISITSEDONA<br> ТЕЛ: +7(495) 666-01-66
+      </p>
+    </section>
+    <section>
+      <ul>
+        <li>
+          <a href="#">Твиттер</a>
+        </li>
+        <li>
+          <a href="#">Фейсбук</a>
+        </li>
+        <li>
+          <a href="#">Ютуб</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <p>
+        WEBSITE BY
+        <a href="https://htmlacademy.ru"><img src="img/" width="113.98px" height="39.78px" alt="Логотип HTML Academy" </a>
+      </p>
+    </section>
+  </footer>
+</body>
+
 </html>
