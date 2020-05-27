@@ -10,7 +10,7 @@
 <body>
   <header class="main-header">
     <nav>
-      <a class="main-header-logo">
+      <a class="main-header-logo" href="#">
         <img src="img/logo.svg" width="138" height="70" alt="Логотип сайта городка Седона">
       </a>
       <ul class="site-navigation">
@@ -133,10 +133,46 @@
     <div>
       <p>
         WEBSITE BY
-        <a href="https://htmlacademy.ru"><img src="img/logo-htmlacademy.svg" width="113.98px" height="39.78px" alt="Логотип HTML Academy" </a>
+        <a href="https://htmlacademy.ru"><img src="img/logo-htmlacademy.svg" width="113.98px" height="39.78px" alt="Логотип HTML Academy"></a>
       </p>
     </div>
   </footer>
+
+  <div class="pop-up visually-hidden">
+
+    <form action="https://echo.htmlacademy.ru/courses" method="post">
+
+      <label for="arrival-date">
+        Дата заезда:
+        <a class="arrival-date-cal" href="#"><span class="icon-calendar"></span></a>
+      </label>
+      <input type="text" name="arrival-date" value="24 апреля 2017">
+
+      <br>
+
+      <label for="date-of-departure">
+        Дата выезда:
+        <a class="date-of-departure-cal" href="#"><span class="icon-calendar"></span></a>
+      </label>
+      <input type="text" name="date-of-departure" value="4 июля 2017">
+
+      <br>
+
+      <div class="amount-of-visitors">
+        <label for="amount-of-adults">Взрослые</label>
+        <button type="button" name="minus-adult"><span class="icon-minus"></span></button>
+        <input type="text" name="amount-of-adults" value="2">
+        <button type="button" name="plus-adult"><span class="icon-plus"></span></button>
+
+        <label for="amount-of-children">Взрослые</label>
+        <button type="button" name="minus-children"><span class="icon-minus"></span></button>
+        <input type="text" name="amount-of-children" value="0">
+        <button type="button" name="plus-children"><span class="icon-plus"></span></button>
+      </div>
+
+    </form>
+
+  </div>
 </body>
 
 </html>
