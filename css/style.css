@@ -1,0 +1,257 @@
+/* Variables */
+:root {
+  --white: #FFFFFF;
+  --seagull: #81B3D2;
+  --black: #000000;
+  --night-rider: #333333;
+  --whisper: #E5E5E5;
+  --roman-coffee: #766357;
+  --dark-gray: #ABABAB;
+  --white-smoke: #F2F2F2;
+  --dim-gray: #666666;
+  --summer-sky: #23A9E1;
+  --aubergine: #231F20;
+  --rustic-red: #491213;
+  --seagull-1: #81B3D3;
+  --very-light-grey: #CACACA;
+  --flamingo: #DC6243;
+  --darksalmon: #F49774;
+  --sundown: #F4B1A4;
+  --background: #888888;
+}
+
+/* Global */
+body {
+  min-width: 1300px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  color: var(--basic-white);
+  text-transform: uppercase;
+  background-color: var(--background);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+.main-navigation {
+  width: 1200px;
+  height: 55px;
+  margin-left: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 26px;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation-current a:not([href]) {
+  background-color: var(--basic-black);
+}
+
+/* User navigation */
+.site-navigation a {
+  color: var(--black);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: var(--night-rider);
+}
+
+.about-sedona {
+  width: 1200px;
+  height: 725px;
+  margin-left: 50px;
+  background-image: url("../img/background-main.jpg");
+  background-repeat: no-repeat;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.about-sedona h2 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.about-sedona p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.search-hotels {
+  width: 1200px;
+  height: 291px;
+  margin-left: 50px;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.search-hotels h3 {
+  width: 435px;
+  margin-left: 383px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.search-hotels p {
+  width: 435px;
+  margin-left: 383px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.search-hotels a {
+  width: 568px;
+  height: 86px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  background-color: var(--roman-coffee);
+  color: var(--white);
+}
+
+.main-footer {
+  width: 1200px;
+  height: 291px;
+  margin-left: 50px;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.footer-contacts {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--black);
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button-tw a {
+  width: 46px;
+  height: 48px;
+  background-image: url("../img/twitter.svg");
+  background-color: var(--seagull);
+}
+
+.social-button-fb a {
+  width: 46px;
+  height: 48px;
+  background-image: url("../img/fb-icon.svg");
+  background-color: var(--seagull);
+}
+
+.social-button-yt a {
+  width: 46px;
+  height: 48px;
+  background-image: url("../img/outube.svg");
+  background-color: var(--seagull);
+}
+
+.footer-copyright {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--black);
+}
+
+.filters {
+    width: 1200px;
+    height: 217px;
+    margin-left: 50px;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.sort {
+    width: 1200px;
+    height: 86px;
+    margin-left: 50px;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.catalog {
+    width: 1200px;
+    height: 1000px;
+    margin-left: 50px;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+/* Или переделать с article на список? Так наверное будет легче? */
+
+.catalog-item
+
+.catalog-item-image
+
+.catalog-category
+
+.catalog-item-price
+
+.catalog-item-star
+
+.catalog-item-rate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  …
+}
+
+.pop-up-visually-hidden {
+  display: none;
+}
